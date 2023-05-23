@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio website - Muskan Rathore</title>
+	<link rel="stylesheet" href="style.1.css">
+	<script src="https://kit.fontawesome.com/e30b75fd46.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="images/NameLogo.png" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p>Programmer | Web Developer</p>
+            <h1>Hi, I'm <span>Muskan Rathore</span> <br> From Gwalior</h1>
+		</div>	
+	</div>
+</div>
+<!-- -----------about-------- -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+			<img src="images/user.png">
+		</div>
+        <div class="about-col-2">
+        	<h1 class="sub-title">About Me</h1>
+        	<p>I am an Engineering Aspirant. I am from Gwalior, Madhya Pradesh. Currently I am pursuing my btech in mathematics and computing from Madhav Institute Of Technology And Science, Gwalior, Madhya Pradesh. I have a keen interest in coading, designing websites. </p>
+
+        	<div class="tab-titles">
+        		<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        		<p class="tab-links" onclick="opentab('projects')">Projects</p>
+        		<p class="tab-links" onclick="opentab('education')">Education</p>
+        	</div>
+        	<div class="tab-contents active-tab" id="skills">
+                <ul>
+                	<li><span>Web Designing</span><br>Designing WebPages</li>
+                	<li><span>Web Development</span><br>Designing Websites</li>
+                	<li><span>Data Structures And Algorithms</span></li>
+                  <li><span>Object Oriented Programming (OOPS)</span></li>
+                	<li><span>C++ Programming</span></li>
+                	<li><span>Python Programming</span></li>
+                </ul>
+        	</div>
+        	<div class="tab-contents" id="projects">
+                <ul>
+                	<li><span>Web Designing</span><br>Personal Portfolio Website</li>
+                	<li><span>Minor Project</span><br>Advance Message Queuing Protocol(Simulation And Modelling)</li>
+                </ul>
+        	</div>
+        	<div class="tab-contents" id="education">
+                <ul>
+                	<li><span>2024</span><br>B-Tech in Mathematics And Computing from Madhav Institute Of Technology And Science, Gwalior(M.P.)</li>
+                	<li><span>2018</span><br>High School (CBSE) from Green Wood Public School, Gwalior(M.P.)</li>
+                	<li><span>2020</span><br>Higher Secondary (CBSE) from Green Wood Public School, Gwalior(M.P.)</li>
+                </ul>
+        	</div>
+        </div>
+	</div>
+   </div>
+  </div>
+  <!-- ---------services------------- -->
+  <div id="services">
+  	<div class="container">
+  	     <h1 class="sub-title">My Services</h1>
+  	     <div class="services-list">
+  	     	<div>
+  	     		  <i class="fa-solid fa-code"></i>
+  	     	    <h2>Web Designing</h2>
+  	     	    <p>Web designing is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience.</p>
+  	     	    <a href="#">Learn more</a>
+  	     	</div>   
+          <div>
+  	     		  <i class="fa-sharp fa-solid fa-crop-simple"></i>
+  	     	    <h2>Web Development</h2>
+  	     	    <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+  	     	    <a href="#">Learn more</a>
+  	     	</div>     	
+  	     </div>
+  	</div>
+  </div>
+  <!-- ----------portfolio---------- -->
+  <div id="portfolio">
+  	<div class="container">
+  	       <h1 class="sub-title">My Work</h1>
+  	       <div class="work-list">
+  	       	<div class="work"> 
+  	       	     <img src="images/work-1.png">
+  	       	     <div class="layer">
+  	       	     	<h3>Personal Portfolio</h3>
+  	       	     	<p>A personal portfolio is an evidentiary document designed to provide qualitative and quantitative information.A portfolio is a collection of your best work samples that can illustrate your skills and expertise in a particular domain.</p>
+  	       	     	<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  	       	     </div>
+  	       	</div> 
+  	       	<div class="work"> 
+  	       	     <img src="images/work-2.png">
+  	       	     <div class="layer">
+  	       	     	<h3>Advance Message Queuing Protocol</h3>
+  	       	     	<p>Advance Queing Message Protocol can be used to send messages to multiple people at a time and will save a lot of time in addition with quick response.</p>
+  	       	     	<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  	       	     </div>
+  	       	</div> 	     
+  	       	<div class="work"> 
+  	       	     <img src="images/work-3.png">
+  	       	     <div class="layer">
+  	       	     	<h3>Shopping Website</h3>
+  	       	     	<p>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app.</p>
+  	       	     	<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+  	       	     </div>
+  	       	</div> 	      	
+  	       </div>
+  	       <a href="#" class="btn">See more</a>
+  	</div> 	
+  </div>
+  <!------------contact--------------->
+  <div id="contact">
+  	<div class="container">
+  		<div class="row">
+  			<div class="contact-left">
+  				<h1 class="sub-title">Contact Me</h1>
+  				<p><i class="fa-solid fa-paper-plane"></i>muskanrathore376@gmail.com</p>
+  				<p><i class="fa-solid fa-square-phone"></i>9098489758</p>
+  				<div class="social-icons">
+  					 <a href="https://www.facebook.com/profile.php?id=100035404562705&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+  					 <a href="https://instagram.com/muskanrathore792?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+  					 <a href="https://www.linkedin.com/in/muskan-rathore-518099255`"><i class="fa-brands fa-linkedin"></i></a>
+  				</div>
+  				<a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+  			</div>  
+  			<div class="contact-right">
+  				 <form name="submit-to-google-sheet">
+  				 	   <input type="text" name="Name" placeholder="Your Name" required>
+  				 	   <input type="email" name="Email" placeholder="Your Email" required>
+  				 	   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+  				 	   <button type="submit" class="btn btn2">Submit</button>
+  				 </form>
+  				 <span id="msg"></span>
+  			</div>  			
+  		</div>  		
+  	</div> 
+  	<div class="copyright">
+  		  <p>Copyright © Muskan. Made with <i class="fa-solid fa-heart"></i> by Me</p>
+  	</div>	
+  </div>
+
+  <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+        	for(tablink of tablinks){
+        		tablink.classList.remove("active-link");
+        	}
+        	for(tabcontent of tabcontents){
+        		tabcontent.classList.remove("active-tab");
+        	}
+        	event.currentTarget.classList.add("active-link");
+        	document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+  </script>
+
+  <script>
+
+  	var sidemenu = document.getElementById("sidemenu");
+  	
+    function openmenu(){
+    	sidemenu.style.right = "0";
+    }
+    function closemenu(){
+    	sidemenu.style.right = "-200px";
+    }
+
+  </script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyqX3PIMJlGtcTnbOTl--uwc8Y7Elxw1QnO913WHIC8PRGyklxktUGuli2aYrw8NbUV/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message sent successfully"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},5000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
